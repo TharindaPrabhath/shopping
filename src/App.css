@@ -1,0 +1,12 @@
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.content{
+    position: relative;
+    top: 50px;
+    z-index: 0;
+
+}
