@@ -1,0 +1,11 @@
+.mainscreen{
+    
+}
+
+.mainscreen__content{
+    padding: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
