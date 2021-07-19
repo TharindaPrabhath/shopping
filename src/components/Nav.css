@@ -1,0 +1,65 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(201, 158, 20);
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav input{
+    outline: none;
+    border: none;
+}
+
+.nav__content{
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h2{
+    font-family: "poppins",sans-serif;
+    color: #212121;
+    font-size: 1.2em;
+}
+
+.left h2 span{
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.middle input{
+    width: 100%;
+    max-width: 600px;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 1em;
+    border-radius: 5em;
+}
+
+.middle .search-icon{
+    margin-left: -2em;
+    background-color: cadetblue;
+    color: white;
+    padding: 0.3em;
+    border-radius: 5em;
+}
+
+.right label{
+    background-color: cadetblue;
+    padding: 0.2em 0.5em;
+    border-radius: 5em;
+    margin-left: -0.5em;
+    cursor: pointer;
+}
