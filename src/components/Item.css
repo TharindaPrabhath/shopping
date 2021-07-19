@@ -1,0 +1,42 @@
+.item{
+    width: 200px;
+    border-radius: 1em;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: #ececec;
+}
+
+.item__content{
+    padding: 1.2em 1.5em;
+    box-sizing: border-box;
+    text-align: center;
+
+    font-family: "poppins",sans-serif;
+}
+
+.item__content img{
+    width: 150px;
+}
+
+.item__content h3{
+    font-weight: 400;
+}
+
+.item button{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.8em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    transition: 200ms;
+}
+.item button:hover{
+    background-color: rgb(201, 158, 20);
+    color: white;
+}
